@@ -170,5 +170,127 @@ Pattern 6:
 //         }
 //     cout<<endl;
 // }
+
+/*
+Pattern 9
+*
+**
+***
+**
+*
+
+*/
+// int i,j,rows;
+// cout<<"Enter number of rows: ";
+// cin>> rows;
+
+// for ( i = 1; i <=2*rows-1; i++)
+// {
+//    int stars=i;
+//    if (i>rows) 
+//    {stars=2*rows -i;}
+//    for (j=1 ; j<=stars;j++)
+//    {
+//       cout<<" * ";
+//    }
+//    cout<< endl;
+// }
+
+/*
+Pattern 10:
+
+1
+0 1
+1 0 1
+
+*/
+
+// int i,j,rows;
+// int parity=1;
+// cout<<"Enter number of rows: ";
+// cin>> rows;
+// for ( i = 1; i <=rows; i++)
+// {
+//    if (i%2 == 0) parity =0;
+//    else  parity =1;
+//    for (j=1 ; j<=i;j++)
+//    {
+//       cout<<parity;
+//       parity = 1-parity;  
+//    }
+//    cout<< endl;
+// }
+
+/*
+Pattern 11: 
+
+1    1
+12  21
+123321
+
+*/
+
+// int i,j,rows;
+// cout<<"Enter number of rows: ";
+// cin>> rows;
+// for ( i = 1; i <= rows; i++)
+// {
+//     //number
+//     for ( j = 1; j <= i; j++)
+//     {
+//         cout<<j;
+//     }
+//     //space
+//     for ( int k = 0; k < rows-i; k++)
+//         {
+//              cout<<" "<<" ";   
+//         }
+//     for ( j = i; j >= 1; j--)
+//         {
+//             cout<<j;
+//         }
+// cout<<endl;
+// }
+
+/*
+Pattern 12:
+1
+23
+345
+
+*/
+// int i,j,rows;
+//  cout<<"Enter number of rows: ";
+//  cin>> rows;
+//  int n=1;
+//  for ( i = 1; i <= rows; i++)
+//  {
+//      for ( j = 1; j <= i; j++)
+//      {
+         
+//          cout<<n<<" ";
+//          n=n+1;
+//      }
+//  cout<<endl;
+//  }
+
+/*
+Pattern 13:
+A
+A B
+A B C
+
+*/
+//  int i,rows;
+//  cout<<"Enter number of rows: ";
+//  cin>> rows;
+//  for ( i = 0; i < rows; i++)
+//  {
+//      for ( char j = 'A'; j <='A'+ i; j++)
+//      {
+//          cout<<j<<" ";
+//      }
+//  cout<<endl;
+//  }
    return 0;
 }
